@@ -1,5 +1,4 @@
-def reverse_each_word(sentence1)
-  sentence1 = "Hello there, and how are you?"
-  sentence1.reverse!
+def reverse_each_word(sentence)
+  sentence.split.map {|word| word.reverse}.join(" ")
 end
 
